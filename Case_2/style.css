@@ -45,6 +45,21 @@ main > aside > nav > a{
     margin: 10px 20px 10px 40px;
 }
 
+main > section > div{
+    width: 98%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+}
+
+main > section > div > div{
+    border: black solid 2px;
+    background-image: url("../assests/catGif.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 footer{
     background-color: gray;
     text-align: center;
