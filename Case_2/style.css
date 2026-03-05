@@ -53,14 +53,20 @@ main > section > div{
     padding: 10px;
 }
 
-main > section > div > div{
+.gif{
     border: black solid 2px;
-    background-image: url("../assests/catGif.gif");
+    background-image: url("assets/logo.png");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+    overflow: hidden;
 }
 
 footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
     background-color: gray;
     text-align: center;
     font-size: 18px;
