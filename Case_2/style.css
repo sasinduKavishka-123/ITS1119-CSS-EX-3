@@ -16,8 +16,33 @@ header > nav > a{
     margin: 0 10px;
 }
 
-aside {
+main{
+    position: relative;
+}
+
+aside{
+    width: 200px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: indigo;
+    color: white;
+}
+
+main > section > p{
+    margin: 0;
+}
+
+section{
+    margin-left: 210px;
+}
+
+main > aside > nav > a{
+    display: block;
+    color: white;
+    font-size: 18px;
     text-decoration: none;
+    margin: 10px 20px 10px 40px;
 }
 
 footer{
