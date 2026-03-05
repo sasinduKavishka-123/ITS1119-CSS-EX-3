@@ -1,0 +1,29 @@
+
+header{
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom: black solid 5px;
+}
+
+header > nav{
+    position: absolute;
+    right: 0;
+}
+
+header > nav > a{
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+aside {
+    text-decoration: none;
+}
+
+footer{
+    background-color: gray;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding: 15px;
+}
